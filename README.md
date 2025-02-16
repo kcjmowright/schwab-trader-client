@@ -1,7 +1,7 @@
-# 0.0.1-SNAPSHOT
+# schwab-trader-client
 
 Trader API - Account Access and User Preferences
-- API version: 1.0.0
+- API version: 0.0.1
 
 Schwab Trader API access to Account, Order entry and User Preferences
 
@@ -12,7 +12,7 @@ Schwab Trader API access to Account, Order entry and User Preferences
 ## Requirements
 
 Building the API client library requires:
-1. Java 1.7+
+1. Java 21
 2. Maven/Gradle
 
 ## Installation
@@ -38,8 +38,8 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>com.kcjmowright.schwab</groupId>
-  <artifactId>0.0.1-SNAPSHOT</artifactId>
-  <version>1.0.0</version>
+  <artifactId>schwab-trader-client</artifactId>
+  <version>0.0.1</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -49,7 +49,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.kcjmowright.schwab:0.0.1-SNAPSHOT:1.0.0"
+compile "com.kcjmowright.schwab:schwab-trader-client:0.0.1"
 ```
 
 ### Others
@@ -62,7 +62,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/0.0.1-SNAPSHOT-1.0.0.jar`
+* `target/schwab-trader-client-0.0.1.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
